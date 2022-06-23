@@ -1,0 +1,49 @@
+{
+    "res1": {
+        "name": "Sirlon Stockade",
+        "description": "Buffet restaurant with many special kind of food",
+        "type": "Buffet",
+        "address": "Av. Héroe de Nacozari Sur 2101, Jardines de las Bugambilias, 20270 Aguascalientes, Ags.",
+        "position": {
+            "latitude": 21.859720206763992,
+            "longitude": -102.28355725578628
+        },
+        "registration": {
+            "userId": "62b3a2ea71843df913c7e577",
+            "username": "richard",
+            "date": "June 22, 2022"
+        }
+    },
+
+    "res2": {
+        "name": "Las Alitas",
+        "description": "Restourant with many type of recipes with chicken",
+        "type": "Fast Food",
+        "address": "Av. José María Chávez 1601, Jardines de la Asunción, 20270 Aguascalientes, Ags.",
+        "position": {
+            "latitude": 21.863291172999986,
+            "longitude": -102.29301526576685
+        },
+        "registration": {
+            "userId": "62b3a2ea71843df913c7e577",
+            "username": "richard",
+            "date": "June 20, 2022"
+        }
+    },
+
+    "res3": {
+        "name": "Toks",
+        "description": "Restourant with the best gourmet food",
+        "type": "Gourmet",
+        "address": "Av. José María Chávez 1531, Agricultura, 20234 Aguascalientes, Ags.",
+        "position": {
+            "latitude": 21.86248720363416,
+            "longitude": -102.29438857881594
+        },
+        "registration": {
+            "userId": "62b3a2ea71843df913c7e575",
+            "username": "mondrag",
+            "date": "June 22, 2022"
+        }
+    }
+}

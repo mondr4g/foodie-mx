@@ -1,0 +1,87 @@
+// LOCAL Deploy ***************************************************************************************************************************
+
+// USERS -----------------------------------------------------------------------------------------------------------------------------------
+### 
+GET http://localhost:3000/users
+
+### 
+GET http://localhost:3000/users/62b3a2ea71843df913c7e577
+
+### Create 
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jimmy", 
+    "lastName":"Butler", 
+    "email":"jimmy@example.com", 
+    "phoneNumber":"4497657233", 
+    "username":"jimmyBuckets",
+    "password":"1230"
+}
+
+### PUT 
+PUT http://localhost:3000/users/62b3b63b678b64f67104c1c0 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Jimmy", 
+    "lastName":"Butlerr", 
+    "email":"jimb@example.com", 
+    "phoneNumber":"4497657233", 
+    "username":"jimmyBuckets",
+    "password":"1230"
+}
+
+### DELETE  
+DELETE http://localhost:3000/users/62b3b63b678b64f67104c1c0 HTTP/1.1
+
+// RESTAURANTS -----------------------------------------------------------------------------------------------------------------------------------
+### 
+GET http://localhost:3000/restaurants
+
+### 
+GET http://localhost:3000/restaurants/62b3f22671843df913c7e57d
+
+### Create 
+POST http://localhost:3000/restaurants HTTP/1.1
+content-type: application/json
+
+{
+    "name": "McDonald's",
+    "description": "The most variety of hamburgers",
+    "type": "Fast Food",
+    "address": "Av. Las Americas, Valle Dorado, 20235 Aguascalientes, Ags.",
+    "position": {
+        "latitude": 21.870890441101405,
+        "longitude": -102.3050325476091
+    },
+    "registration": {
+        "userId": "62b3a2ea71843df913c7e577",
+        "username": "mondrag",
+        "date": "June 22, 2022"
+    }
+}
+
+### PUT 
+PUT http://localhost:3000/restaurants/62b3fb95e1edbf361674ef16 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "McDonald's El Dorado",
+    "description": "The most variety of hamburgers around the world",
+    "type": "Fast Food",
+    "address": "Av. Las Americas, Valle Dorado, 20235 Aguascalientes, Ags.",
+    "position": {
+        "latitude": 21.870890441101405,
+        "longitude": -102.3050325476091
+    },
+    "registration": {
+        "userId": "62b3a2ea71843df913c7e577",
+        "username": "mondrag",
+        "date": "June 22, 2022"
+    }
+}
+
+### DELETE  
+DELETE http://localhost:3000/restaurants/62b3fb95e1edbf361674ef16 HTTP/1.1

@@ -1,0 +1,46 @@
+{
+    "user1": {
+        "firstName": "Eduardo",
+        "lastName": "Mena",
+        "email": "jmena146@gmail.com",
+        "phoneNumber": "4491234567",
+        "username": "mondrag",
+        "password": "1234"        
+    },
+
+    "user2": {
+        "firstName": "Yamile",
+        "lastName": "Garcia",
+        "email": "dam@gmail.com",
+        "phoneNumber": "4497893465",
+        "username": "yams",
+        "password": "1235"         
+    },
+
+    "user3": {
+        "firstName": "Ricardo",
+        "lastName": "Mena",
+        "email": "ricMen@gmail.com",
+        "phoneNumber": "4490982635",
+        "username": "richard",
+        "password": "1236"         
+    },
+
+    "user4": {
+        "firstName": "Margarita",
+        "lastName": "Mondragon",
+        "email": "margot@gmal.com",
+        "phoneNumber": "4491729836",
+        "username": "mondrag",
+        "password": "1237"          
+    },
+
+    "user5": {
+        "firstName": "Amaury",
+        "lastName": "Romo",
+        "email": "romoh@gmail.com",
+        "phoneNumber": "4491763592",
+        "username": "nourish99",
+        "password": "1238"        
+    }
+}
