@@ -17,3 +17,4 @@ const endpointsFiles = ['./routes/index.js'];
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
     require('./app')
 });
+

@@ -5,19 +5,29 @@
 GET http://localhost:3000/users
 
 ### 
-GET http://localhost:3000/users/62b3a2ea71843df913c7e577
+GET http://localhost:3000/users/62c11aedffbfa962f86c910e
+auth-token: 
 
 ### Create 
 POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Jimmy", 
-    "lastName":"Butler", 
-    "email":"jimmy@example.com", 
-    "phoneNumber":"4497657233", 
-    "username":"jimmyBuckets",
-    "password":"1230"
+    "firstName":"Eduardo", 
+    "lastName":"Mondragon", 
+    "email":"mondrag@gmail.com", 
+    "phoneNumber":"4491357283", 
+    "username":"mondrag04",
+    "password":"Admin123"
+}
+
+### Create 
+POST http://localhost:3000/users/login HTTP/1.1
+content-type: application/json
+
+{
+    "email":"mondrag@gmail.com", 
+    "password":"Admin123"
 }
 
 ### PUT 
